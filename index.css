@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(242, 242, 232);
+  background-image: url('./land.jpg');
+  background-size: cover;
+}
+.md{
+  display:inline-block;
+  margin-top: 25px;
+  position:fixed;
+}
+#d{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.head{
+  text-align: end;
+  font-size: larger;
+  margin-top: 1.3%;
+}
+#sp{
+  margin-right: 21%;
+}
+li{ 
+  margin: 0% 1%;
+  text-align: center;
+  background-color:none;
+  border-radius: 50px;
+  padding: 5px 15px;
+  font-style: italic;
+  display: inline-block;
+}
+li:hover{
+  transition: .2s ease-in-out;
+  transform:scale(1.08);
+}
+li a{
+  text-decoration: none;
+}
+.btn{
+  border-radius: 15px;
+  border: 1px solid;
+  width:90px;
+  padding: 6px;
+  margin: 0% 1%;
+  font-size:medium;
+  font-style: italic;
+  margin-right: 5%;
+  background-color: rgb(176, 200, 247);
+}
+.btn:hover{
+  transform: scale(1.05);
+  transition: .2s ease-in-out;
+}
+.btn a{
+  text-decoration: none;
+}
+.bn{
+  border-radius: 15px;
+  border: 1px solid;
+  width:110px;
+  padding: 7px;
+  margin: 0% 1%;
+  font-size:medium;
+  font-style: italic;
+  margin-left: 20px;
+  margin-top: 15px;
+  background-color: rgb(176, 200, 247);
+}
+.bn:hover{
+  transform: scale(1.03);
+  transition: .2s ease-in-out;
+}
+.bn a{
+  text-decoration: none;
+}
+p {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  font-style: italic;
+  line-height: 30px;
+  margin-left:12px;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 65px;
+  margin-left: 12px;
+  line-height: 1.5em;
+  letter-spacing: .08em;
+  font-size: 46px;
+  margin-bottom: -13px;
+}
